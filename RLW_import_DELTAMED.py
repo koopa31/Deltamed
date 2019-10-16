@@ -16,8 +16,7 @@ def import_deltamed(filename):
     import_deltamed allows to load a Deltamed signal loading the metadata from the .txt file and loading the signal
     from a binary or an ASCII file (loading the binary is much more efficient from a computational time point of view)
 
-    :param filename: name of the file (can be either the txt, the binary or the ascii file). All the files must have
-     the same name, only the extension should change so it can work correctly.
+    :param filename: name of the txt file
     :return: [out_header, out_data, message_string] list of the header (metadata), the signal, and a string containing
     warning messages.
     """
